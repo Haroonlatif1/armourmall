@@ -1,0 +1,19 @@
+.parallelogram-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .parallelogram {
+    width: 30%; /* Adjust the width percentage as needed */
+    height: 10%; /* Adjust the height as needed */
+    background-color: rgb(249,113,3); /* Change the background color */
+    transform: skewX(-25deg); /* Skew the element to create the parallelogram shape */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .parallelogram {
+      width: 80%; /* Adjust the width percentage for smaller screens */
+    }
+  }
+  

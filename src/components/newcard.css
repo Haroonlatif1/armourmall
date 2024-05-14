@@ -1,0 +1,66 @@
+.new-card {
+    max-width: 17rem;
+    max-height: 30rem;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+  .new-cardinfo{
+    max-width: 60rem;
+    max-height: 35rem;
+    margin-bottom: 10px;
+    height: 100%;
+  }
+
+  .cart-button2 {
+    background-color: rgb(149, 69, 53);
+    border: none;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 10px;
+    right:15px;
+  }
+  .cart-button {
+    background-color: rgb(149, 69, 53);
+    border: none;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+  }
+  
+  .details-button {
+    background-color: #007bff; /* Blue color for details button */
+    color: #fff; /* Text color white */
+    border: none;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+  }
+  @media(max-width:540px)
+  {
+    .new-card {
+      max-width: 22rem;
+      max-height: 35rem;
+      margin-bottom: 20px;
+      height: 100%;
+    }
+  }
+
+  .new-cardinfo {
+    color: rgb(255, 219, 99);
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    justify-content: center;
+}
+
+.product-info {
+    flex: 1; /* Take up remaining space */
+}
+
+.reviews-section {
+    flex: 1; /* Take up remaining space */
+    margin-left: 20px; /* Add margin between product info and reviews */
+}
+
+
+  

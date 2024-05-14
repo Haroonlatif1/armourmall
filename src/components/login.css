@@ -1,0 +1,41 @@
+.body{
+    background-image: url("/public/pexels-photo-889709.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20vh;
+
+}
+.body h2{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.lo{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    max-width: 40%;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: tranform 0.5s ease-in;
+}
+.lo label{
+    color:rgb(195, 195, 195)
+
+}
+.lo input:hover{
+    transform: scale(1.07);
+
+}
+.lo button{
+    margin-left: 35%;
+}
+@media (max-width:1150px)
+
+{
+    .lo label{
+        color:rgb(195, 195, 195);
+        font-size: 12px;
+        display: flex;
+    
+    }
+}

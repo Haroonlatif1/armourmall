@@ -1,0 +1,32 @@
+.about-us-container {
+    background-color: #f1efef; /* Light gray background color */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-us-title {
+    color: #333; /* Dark gray title color */
+}
+
+.about-us-section-title {
+    color: #444; /* Slightly darker gray section title color */
+}
+
+.about-us-description {
+    color: #666; /* Medium gray description text color */
+}
+.ll{
+    color: #979595; /* Medium gray description text color */
+    max-width: 35rem;
+}
+
+.about-us-values {
+    list-style-type: none; /* Remove bullet points from values list */
+    padding-left: 0;
+}
+
+.about-us-values li {
+    margin-bottom: 10px;
+}
+
+/* Add more custom styles as needed */

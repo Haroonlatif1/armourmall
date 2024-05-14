@@ -1,0 +1,12 @@
+.octagon {
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    margin-left: 20px;
+    background-color: #f70000; /* Adjust background color as needed */
+    clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%);
+    /* Adjust clip-path values to create the octagon shape */
+  }
+ .ll{
+  background-color:rgb(133, 133, 133)
+ }
+  

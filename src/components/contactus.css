@@ -1,0 +1,37 @@
+.contact-container {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-description {
+    color: #444; /* Dark gray description text color */
+}
+
+.contact-form {
+    background-color: #fff; /* White background color for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+}
+
+.contact-form .form-label {
+    color: #333; /* Dark gray label text color */
+}
+
+.submit-button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on button hover */
+}
+
+.contact-info {
+    background-color: #fff; /* White background color for contact info */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for contact info */
+}

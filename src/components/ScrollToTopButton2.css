@@ -1,0 +1,44 @@
+.scroll-to-top-btn2 {
+    position: fixed;
+    bottom: 200px;
+    left: 5px;
+    width: 40px;
+    height: 120px;
+    padding-left:10px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25%;
+    z-index: 1000; /* Ensure it's above other elements */
+    transition: opacity 0.4s;
+    opacity: 0.9;
+}
+
+.scroll-to-top-btn2:hover {
+    opacity: 1;
+    background-color:white;
+}
+@media (max-width:540px)
+{
+    .scroll-to-top-btn2 {
+        position: fixed;
+        bottom: 200px;
+        left: 2px;
+        width: 20px;
+        height: 50px;
+        padding-left:5px;
+        color: #fff;
+        font-size: 17px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15%;
+        z-index: 1000; /* Ensure it's above other elements */
+        transition: opacity 0.4s;
+        opacity: 0.8;
+    }
+    .scroll-to-top-btn2:hover {
+        opacity: 1;
+        background-color:white;
+    }
+}

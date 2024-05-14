@@ -1,0 +1,19 @@
+.lolo input
+{
+    background: transparent;
+    padding: 10px;
+    color: white;
+}
+.lolo input:hover
+{
+    border: 3px solid rgb(255, 184, 4); 
+}
+.lolo2{
+    margin-right: 10px;
+}
+@media (max-width:540px)
+{
+    .wording{
+        font-size: 15px;
+    }
+}
